@@ -1,0 +1,63 @@
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#githubLink {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+}
+
+#linkToGithubProject {
+    color: black;
+    font-family: "Handlee", cursive;
+    text-decoration: none;
+}
+
+#githubPhoto {
+    border-radius: 100px;
+}
+
+#navigators {
+    display: flex;
+    gap: 10px;
+}
+
+#homeRef, #aboutRef, #contactRef {
+    background-color:#6797FF;
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: "Handlee", cursive;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    padding: 5px;
+    background-color: #434DFF;
+    opacity: 75%;
+     color: #ffffff;
+    font-family: "Quando", regular;
+    font-size: 32px;
+}
+
+#container1 {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    color: black;
+    font-family: "Handlee", cursive;
+    font-size: 48px;
+}
+
+#container2 {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-family: "Handlee", cursive;
+    font-size: 48px;
+}
