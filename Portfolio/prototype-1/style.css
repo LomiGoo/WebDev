@@ -2,6 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 10px;
+    background-color: #95a0d1;
 }
 
 #githubLink {
@@ -12,7 +17,7 @@
 }
 
 #linkToGithubProject {
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: "Handlee", cursive;
     text-decoration: none;
 }
@@ -26,7 +31,7 @@
     gap: 10px;
 }
 
-#homeRef, #aboutRef, #contactRef {
+#homeRef, #aboutRef, #contactRef, #aboutRef{
     background-color:#6797FF;
     padding: 10px;
     border-radius: 10px;
@@ -37,12 +42,16 @@
 
 h1 {
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     background-color: #434DFF;
     opacity: 75%;
      color: #ffffff;
     font-family: "Quando", regular;
     font-size: 32px;
+}
+
+#myPhoto {
+    border: 2px solid #8499FF;
 }
 
 #container1 {
@@ -60,4 +69,54 @@ h1 {
     color: black;
     font-family: "Handlee", cursive;
     font-size: 48px;
+}
+
+#container3 {
+    text-align: right;
+    margin: 100px;
+    font-family: "Quando", regular;
+    font-size: 32px;
+}
+
+#container4 {
+    display: flex;
+    align-items: center;
+    gap: 1165px;
+    font-family: "Quando", regular;
+    font-size: 32px;
+}
+
+#container5 {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+#about1 {
+    padding: 10px;
+    background-color: #3A3939;
+    color: #ffffff;
+    font-family: "Handlee", cursive;
+    font-size: 40px;
+}
+
+#about2 {
+    padding-right: 300px;
+    background-color: #3A3939;
+    color: #ffffff;
+    font-family: "Handlee", cursive;
+    font-size: 40px;
+}
+
+#container6 {
+    font-family: "Quando", regular;
+    font-size: 32px;
+}
+
+.Contacts {
+    padding: 10px;
+    background-color: #3A3939;
+    color: #ffffff;
+    font-family: "Handlee", cursive;
+    font-size: 40px;
 }
